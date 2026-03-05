@@ -41,9 +41,15 @@ function App() {
   return (
     <div className="app-shell">
       <header className="top-bar">
-        <div>
+        <div className="top-bar-overlay">
           <p className="eyebrow">Mpumalanga Ranger Reference Guide</p>
           <h1>Field-ready answers in seconds</h1>
+          <p className="hero-sub">Beautifully structured, source-traceable fact cards for confident guest conversations.</p>
+          <div className="hero-metrics">
+            <span>{entries.length} ranger references</span>
+            <span>{sources.length} trusted sources</span>
+            <span>{reserveProfiles.length} reserve profiles</span>
+          </div>
         </div>
       </header>
 
